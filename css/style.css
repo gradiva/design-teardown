@@ -1,0 +1,52 @@
+/********* Header *************/
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  grid-area: header;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/********* Main *********/
+main {
+  grid-area: main;
+  flex-shrink: 0;
+	height: auto;
+}
+
+
+/********* Shades of grey ***************/
+.black {
+  background-color: black;
+}
+
+.grey-one {
+  background-color: rgb(40, 40, 40);
+}
+
+.grey-two {
+  background-color: rgb(78, 78, 78);
+}
+
+.grey-three {
+  background-color: rgb(124, 124, 124);
+}
+
+.grey-four {
+  background-color: rgb(167, 167, 167);
+}
+
+.grey-five {
+  background-color: rgb(201, 201, 201);
+}
+
+.grey-six {
+  background-color: rgb(216, 216, 216);
+}
+
+.white {
+  background-color: white;
+}
