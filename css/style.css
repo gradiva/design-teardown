@@ -1,21 +1,26 @@
 /********* Header *************/
 header {
-  height: 12vh;
+  height: auto;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .nav-bar {
+  height: 12vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: center;
 }
 
 .nav-bar-items {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-bar-item {
+  margin: 10px;
+  padding: 2px;
 }
 
 /********* Main *********/
