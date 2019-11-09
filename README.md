@@ -7,6 +7,7 @@ following The Odin Project [HTML and CSS course](https://www.theodinproject.com/
 
 ## Notes
 
+The original exercise suggested to build the heat map for [this site](https://www.smashingmagazine.com/), but I did not really identify a clear visual hierarchy, so decided to do it for [this other site](https://evernote.com/) instead. 
 
 ## View in browser
 
