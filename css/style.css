@@ -25,6 +25,12 @@ h3 {
 	padding-top: 10px;
 }
 
+h4 {
+  font-size: 1.3em;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+
 /********* Header *************/
 header {
   height: auto;
@@ -129,19 +135,30 @@ main {
   line-height: 1.5em;
 }
 
-/******** Subsection one **********/
-.sub-section-one {
-  height: 70vh;
-}
-
-/******** Subsection two **********/
-.sub-section-two {
-  height: 70vh;
-}
-
-/******** Subsection three **********/
+/***** Subsections one, two and three ******/
+.sub-section-one, 
+.sub-section-two,
 .sub-section-three {
   height: 70vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.explanation-option {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 60vh;
+  padding-left: 20px;
+}
+
+.image-option {
+  height: 400px;
+  width: 400px;
+  margin: 40px;
 }
 
 /******** Shades of grey *************/
