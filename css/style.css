@@ -1,3 +1,30 @@
+/******* General ********/
+body {
+  line-height: 1;
+	font-size: 14px; 
+	font-family: 'Roboto', 'Arial', sans-serif;  
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	font-size: 3.3em;
+	padding-top: 30px;
+}
+
+h2 {
+  font-size: 2.3em;
+	padding-top: 20px;
+}
+
+h3 {
+  font-size: 1.8em;
+	padding-top: 10px;
+}
+
 /********* Header *************/
 header {
   height: auto;
@@ -13,14 +40,31 @@ header {
   align-items: center;
 }
 
+.title {
+  height: 30px;
+  width: 120px;
+  margin-left: 50px;
+  text-align: center;
+}
+
 .nav-bar-items {
   display: flex;
   justify-content: space-around;
 }
 
 .nav-bar-item {
-  margin: 10px;
+  height: 15px;
+  width: 90px;
+  margin-right: 30px;
   padding: 2px;
+  text-align: center
+}
+
+.nav-bar-button {
+  height: 35px;
+  width: 90px;
+  margin-right: 30px;
+  font-size: small;
 }
 
 /********* Main *********/
@@ -30,13 +74,39 @@ main {
 
 /******** First main section **********/
 .main-section {
-  height: 80vh
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content {
+  width: 60vh;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.signup-button {
+  height: 50px;
+  width: 120px;
+  margin-right: 30px;
+  font-size: medium;
+}
+
+.main-image {
+  height: 400px;
+  width: 600px;
+  margin: 100px 0 80px 0;
 }
 
 /******** Second main section **********/
 .second-main-section {
   height: 100vh
 }
+
+
 
 /******** Subsection one **********/
 .sub-section-one {
@@ -84,4 +154,34 @@ main {
 
 .white {
   background-color: white;
+}
+
+/********* Text **********/
+
+.normal-text {
+  font-weight: normal;
+}
+
+.bold-text {
+	font-weight: 500;
+}
+
+.black-text {
+  color: black;
+}
+
+.dark-grey-text {
+  color: rgb(78, 78, 78);
+}
+
+.grey-text {
+	color: #848484;
+}
+
+.light-grey-text {
+  color: rgb(201, 201, 201);
+}
+
+.white-text {
+  color: white;
 }
